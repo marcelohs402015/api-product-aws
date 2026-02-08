@@ -12,7 +12,7 @@
     <artifactId>api-product-aws</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>api-product-aws</name>
-    <description>API Demo Products deploy AWS</description>
+    <description>Project API Product for AWS</description>
     <properties>
         <java.version>21</java.version>
     </properties>
