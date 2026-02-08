@@ -1,4 +1,4 @@
-package com.mstech.apiproductaws.domain.product;
+package com.mstech.apiproductaws.domain.category;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -7,38 +7,32 @@ import org.json.JSONObject;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "product")
+@Document(collection = "categories")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Product {
+public class Category {
 
     @Id
     private String id;
     private String title;
     private String description;
     private String ownerId;
-    private Integer price;
-    private String category;
 
-    public Product(ProductDTO productDTO){
-        this.title = productDTO.title();
-        this.description = productDTO.description();
-        this.ownerId = productDTO.ownerId();
-        this.price = productDTO.price();
-        this.category = productDTO.categoryId();
+    public Category (CategoryDTO categoryDTO){
+        this.title = categoryDTO.title();
+        this.description = categoryDTO.description();
+        this.ownerId = categoryDTO.ownerId();
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         JSONObject json = new JSONObject();
         json.put("id", id);
         json.put("title", title);
         json.put("description", description);
         json.put("ownerId", ownerId);
-        json.put("price", price);
-        json.put("category", category);
-        json.put("type", "product");
+        json.put("type", "categoria");
 
         return json.toString();
     }
@@ -47,8 +41,9 @@ public class Product {
         JSONObject json = new JSONObject();
         json.put("id", this.id);
         json.put("ownerId", this.ownerId);
-        json.put("type", "delete-produto");
+        json.put("type", "delete-categoria");
 
         return json.toString();
     }
+
 }
