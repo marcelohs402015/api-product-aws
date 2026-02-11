@@ -12,7 +12,7 @@ API REST de produtos por categoria com persistência em MongoDB e publicação d
   <h1>🚧 Em Construção 🚧</h1>
   <p>Este repositório está sendo atualizado constantemente. Novas funcionalidades em breve!</p>
 </div>
----
+
 
 ## Sobre o projeto
 
