@@ -8,8 +8,11 @@
 
 API REST de produtos por categoria com persistência em MongoDB e publicação de eventos na AWS (SNS). Projeto de demonstração de habilidades em desenvolvimento de APIs, Spring Boot e deploy em ambiente cloud.
 ---
-:construction: em Construção
-
+<div align="center">
+  <h1>🚧 Em Construção 🚧</h1>
+  <p>Este repositório está sendo atualizado constantemente. Novas funcionalidades em breve!</p>
+  <img src="https://img.shields.io" alt="Status Badge">
+</div>
 ---
 
 ## Sobre o projeto
