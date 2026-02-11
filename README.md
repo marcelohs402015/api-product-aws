@@ -7,6 +7,8 @@
 [![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)](https://maven.apache.org/)
 
 API REST de produtos por categoria com persistência em MongoDB e publicação de eventos na AWS (SNS). Projeto de demonstração de habilidades em desenvolvimento de APIs, Spring Boot e deploy em ambiente cloud.
+---
+![Em Construção](https://img.shields.io)
 
 ---
 
