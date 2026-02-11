@@ -11,7 +11,6 @@ API REST de produtos por categoria com persistência em MongoDB e publicação d
 <div align="center">
   <h1>🚧 Em Construção 🚧</h1>
   <p>Este repositório está sendo atualizado constantemente. Novas funcionalidades em breve!</p>
-  <img src="https://img.shields.io" alt="Status Badge">
 </div>
 ---
 
